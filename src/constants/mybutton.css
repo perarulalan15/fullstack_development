@@ -1,0 +1,64 @@
+.my-button {
+    position: relative;
+    background-color: #cdf3fd;
+    width: 7%;
+    height: 4vh;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    transition: width 0.3s ease-in-out; 
+  }
+  
+.icon {
+    position: absolute;
+    top: 6px;
+    left: 85%;
+    width: 25px;
+    transition: transform 0.3s ease-in-out;
+    display: none;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+.my-button:hover  {
+    width: 10%;
+    cursor: pointer;
+    background: #03c8ff;
+  }
+
+.my-button:hover .icon {
+    transform: translateX(-12px);
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 414px) {
+    .my-button {
+      position: relative;
+      width: 50%;
+      height: 4vh;
+      color: black;
+      border: none;
+      border-radius: 20px;
+      margin-top: 40px;
+      font-size: 20px;
+    }
+    .icon {
+        width: 20px;
+        left: 86%;
+        top: 6px;
+    }
+    .my-button:hover  {
+      width: 50%;
+      cursor: pointer;
+      background: #03c8ff;
+    }
+  
+    .my-button:hover .icon {
+      transform: translateX(-12px);
+      display: inline-block;
+      transition: transform 0.3s ease-in-out;
+  }
+}

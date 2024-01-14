@@ -1,0 +1,64 @@
+.Contact{
+    background: #ffffff;
+    max-height: auto;
+}
+
+.ct {
+    text-align: center;
+    margin: 30px;
+}
+
+.social-media {
+    display: flex;
+    width: 25%;
+    height: 10px;
+    background: #E7FAFF;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 60px;
+    padding: 70px;
+}
+
+
+#github {
+    width: 60px;
+    height: 6vh;
+}
+
+#linkedin {
+    width: 60px;
+    height: 6vh;
+}
+
+#gmail {
+    width: 60px;
+    height: 6vh;
+}
+
+@media (max-width: 950px) {
+    .social-media {
+        width: 50%;
+        height: 10px;
+        background: #E7FAFF;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        border-radius: 60px;
+        padding: 70px;
+    }
+}
+
+@media (max-width: 414px) {
+    .social-media {
+        width: 80%;
+        height: 13px;
+        background: #E7FAFF;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        border-radius: 60px;
+        padding: 50px;
+    }
+}
+

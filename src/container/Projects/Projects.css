@@ -1,0 +1,110 @@
+.Project_section {
+    background: #EEF0F2;
+    align-items: center;
+}
+
+.pt-hd {
+    text-align: center;
+    font-size: 29px;
+    padding: 30px;
+}
+
+.pt-hs {
+    background: linear-gradient(180deg, #E00808 0%, rgba(0, 0, 0, 0.00) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.projects_column {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.pt1 {
+    display: flex;
+    width: 287px;
+    height: 386px;
+    border-radius: 20px;
+    background: rgba(252, 236, 230, 0.85);
+    box-shadow: 0px 4px 28.5px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt-name {
+    text-align: center;
+    color: #514040;
+}
+
+.Project_content {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: #08415C;
+}
+
+.Project-text {
+    width: 1300px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 414px) {
+    .Project-text {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .pt1 {
+        width: 100%;
+        height: 100%;
+    }
+    .projects_column {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .pt-hd {
+        text-align: center;
+        font-size: 29px;
+        padding: 30px;
+    }
+    .pt-hs {
+        background: linear-gradient(180deg, #E00808 0%, rgba(0, 0, 0, 0.00) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .pt1 {
+        display: flex;
+        width: 287px;
+        height: 386px;
+        border-radius: 20px;
+        background: rgba(252, 236, 230, 0.85);
+        box-shadow: 0px 4px 28.5px 0px rgba(0, 0, 0, 0.25);
+        margin: auto;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pt-name {
+        text-align: center;
+        color: #514040;
+    }
+    .Project_content {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        color: #08415C;
+    }
+}
