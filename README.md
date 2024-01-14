@@ -1,3 +1,10 @@
+# Overview
+
+This repository houses the source code and assets for my personal portfolio website. The portfolio is a reflection of my skills, experiences, and the projects I'm passionate about. Feel free to explore and get to know me better!
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
